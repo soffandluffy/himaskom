@@ -20,6 +20,24 @@
 		position: relative;
 		top: -64px !important;
 	}
+
+	.third .container .row .visi-misi h4{
+		color: white;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	#quote{
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+		background-image: url("{{asset('images/himaskom/fotobareng.png')}}");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		filter: grayscale(10%);
+		padding: 50px;
+	}
+
 	.carousel-item {
 		height: 700px !important;	
 	}
@@ -117,10 +135,123 @@
 	</div>
 </section>
 <section class="second white">
+	<div class="container" style="margin: 30px 0px;">
+		<div class="row">
+			<div class="col s12 m12 l12">
+				<h4><b>Artikel</b></h4>
+			</div>
+
+			<div class="col s4 m4 l4">
+				<div class="card">
+					<div class="card-image">
+					  <img src="{{asset('images/himaskom/dami.jpg')}}" style="filter :blur(2px)">
+					  <span class="card-title white-text"><b>Judul artikel</b></span>
+					</div>
+					<div class="card-content">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+						  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="card-action">
+					  <a href="#">Lanjutkan membaca</a>
+					</div>
+				  </div>
+			</div>
+
+			<div class="col s4 m4 l4">
+				<div class="card">
+					<div class="card-image">
+					  <img src="{{asset('images/himaskom/dami.jpg')}}" style="filter :blur(2px)">
+					  <span class="card-title white-text"><b>Judul artikel</b></span>
+					</div>
+					<div class="card-content">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+						  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="card-action">
+					  <a href="#">Lanjutkan membaca</a>
+					</div>
+				  </div>
+			</div>
+
+			<div class="col s4 m4 l4">
+				<div class="card">
+					<div class="card-image">
+					  <img src="{{asset('images/himaskom/dami.jpg')}}" style="filter :blur(2px)">
+					  <span class="card-title white-text"><b>Judul artikel</b></span>
+					</div>
+					<div class="card-content">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+						  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="card-action">
+					  <a href="#">Lanjutkan membaca</a>
+					</div>
+				  </div>
+			</div>
+
+			
+
+			
+
+		</div>
+	</div>
 	
 </section>
+
 <section class="third">
-	<div class="container" style="background: #252625;">
+	<div class="container" style="background:#053b4c;">
+		<div class="row">
+			<div class="col s12 m12 l12 white-text">
+				<h4 style="color: white; font-style: normal; font-weight: bold;"><b>Tentang Kami</b></h4>
+				<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Senectus et netus et malesuada fames ac. Donec ac odio tempor orci dapibus ultrices in. 
+					Maecenas volutpat blandit aliquam etiam erat. Amet mattis vulputate enim nulla aliquet.</P>
+			</div>
+			<div class="col s4 m4 l4 visi-misi white-text">
+				<h4><b>Visi</b></h4>
+				<ul>
+					<li>among us aja</li>
+					<li>among us aja</li>
+					<li>among us aja</li>
+					<li>among us aja</li>
+					<li>semakin aktif bun</li>
+				</ul>
+			</div>
+
+			<div class="col s4 m4 l4 visi-misi white-text">
+				<h4><b>Misi</b></h4>
+				<ul>
+					<li>among us aja</li>
+					<li>among us aja</li>
+					<li>among us aja</li>
+					<li>among us aja</li>
+					<li>semakin aktif bun</li>
+				</ul>
+			</div>
+
+			<div class="col s3 m3 l3 ">
+				<img src="{{asset('images/himaskom/logohimaskom.png')}}" width="70%" height="70%">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="fourth">
+	<div class="container" >
+		<div class="row" width="50%" height="100%">
+			<div class="col s12 m12 l12 center" id="quote">
+				<p><b>"We Are Family"</b></p>
+			</div>
+			
+		</div>
+	</div>
+
+</section>
+
+
+<section class="fifth">
+	<div class="container" style="background: #053b4c;">
 		<div class="row ">
 			<div class="col s12 m6 l4">
 		      <div class="card transparent z-depth-0 pt-5 pb-8 pr-2 pl-2 white-text">
@@ -132,6 +263,8 @@
 		</div>
 	</div>
 </section>
+
+
 @endsection
 
 {{-- vendor scripts --}}
