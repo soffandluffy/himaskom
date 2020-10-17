@@ -23,6 +23,15 @@ Route::group([
 Route::namespace('Frontend')->group(function() {
 	Route::get('/', 'HomeController@index');
 	Route::get('ph', 'HomeController@ph');
+	Route::get('bpo', 'HomeController@bpo');
+	Route::get('infokom', 'HomeController@infokom');
+	Route::get('ekobis', 'HomeController@ekobis');
+	Route::get('ristek', 'HomeController@ristek');
+	Route::get('sosial', 'HomeController@sosial');
+	Route::get('mikatan', 'HomeController@mikatan');
+	Route::get('psdm', 'HomeController@psdm');
+	Route::get('kesma', 'HomeController@kesma');
+	Route::get('article', 'ArticleController@article');
 });
 
 
