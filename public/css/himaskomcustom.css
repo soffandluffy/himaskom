@@ -1,0 +1,70 @@
+.himaskomfontcolor {
+
+}
+
+.himaskomfont {
+	font-family: 'latobold', sans-serif;
+}
+
+/*		FONT 		*/
+@font-face {
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.woff2') format('woff2'),
+         url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('/fonts/himaskom/lato-bold-webfont.woff2') format('woff2'),
+         url('/fonts/himaskom/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('lato-black-webfont.woff2') format('woff2'),
+         url('lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*			NAVBAR 		*/
+.navbar {
+	transition: all ease 1s;
+}
+.navbar .navbar-main {
+	transition: all ease 1s;
+}
+
+.nav-wrapper {
+	font-family: 'latobold', sans-serif;
+	transition: all ease-in-out 1s;
+}
+
+.brand-logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.brand-logo > img {
+  vertical-align: middle;
+}
+
+.navcustom{
+	background: transparent !important;
+	padding: 16px 64px 0 64px !important;
+	font-size: 1.2rem;
+	transition: all ease 1s;
+}
+.navcustom ul li a {
+	font-size: 1.1rem;
+	transition: all ease 1s;
+}
+
+.parallax img { width: 100%; }
