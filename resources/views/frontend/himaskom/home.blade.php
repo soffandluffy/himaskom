@@ -99,6 +99,10 @@
 		position: relative;
 		z-index: 3;
 	}
+
+	.social-icon{
+		margin-right: 25px;
+	}
 </style>
 @endsection
 
@@ -253,13 +257,29 @@
 <section class="fifth">
 	<div class="container" style="background: #053b4c;">
 		<div class="row ">
-			<div class="col s12 m6 l4">
-		      <div class="card transparent z-depth-0 pt-5 pb-8 pr-2 pl-2 white-text">
-		        <h5 class="white-text">ABOUT</h5>
-				
-		      </div>
-		    </div>
-		    
+			<div class="col s5 m5 l5 white-text">
+				<h5 style="color: white; font-style: normal; font-weight: bold;">Related link</h5>
+				<ul>
+					<li ><a href="#" style="color: white;">link apa gitu</a></li>
+					<li ><a href="#" style="color: white;">link apa gitu</a></li>
+					<li ><a href="#" style="color: white;">link apa gitu</a></li>
+					<li ><a href="#" style="color: white;">link apa gitu</a></li>
+					<li ><a href="#" style="color: white;">link apa gitu</a></li>
+				</ul>
+			</div>
+			
+			<div class="col s3 m3 l3 white-text center pt-4">
+				<img class="social-icon" src="{{asset('images/himaskom/instagram.png')}}" width="15%" height="15%">
+				<img class="social-icon" src="{{asset('images/himaskom/instagram.png')}}" width="15%" height="15%">
+				<img class="social-icon" src="{{asset('images/himaskom/instagram.png')}}" width="15%" height="15%">
+			</div>
+
+			<div class="footer-copyright col s12 m12 l12 center">
+				<div class="container white-text" >
+				© 2020 Copyright White house
+				</div>
+			</div>
+
 		</div>
 	</div>
 </section>
